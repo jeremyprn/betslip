@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #E8E9EB;
+}
+
+.container .matchContainer {
+  padding: 0 2vw;
+}
+
+.container .matchContainer .header {
+  height: 25vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e8e9eb;
+}
+
+.container .matchContainer .header small {
+  font-size: .75em;
+}
+
+.container .matchContainer .header p {
+  font-size: 1.75em;
+  font-weight: 600;
+  margin: 1vh;
+}
+
+.container .matchContainer .oddsContainer {
+  margin: 1vh 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.container .matchContainer .oddsContainer .oddContainer {
+  margin: 4vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .oddTitle {
+  font-size: 1.35em;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer {
+  display: flex;
+  align-items: center;
+  margin: 1vh 0;
+  width: 100%;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer .marketTitle {
+  font-size: 1em;
+  font-weight: 200;
+  width: 10%;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: .75vw;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer div .selectionsContainer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer div .selectionsContainer .selectionContainer {
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer div .selectionsContainer .selectionContainer .selectionTitle {
+  font-size: 1.15em;
+}
+
+.container .matchContainer .oddsContainer .oddContainer .marketContainer div .selectionsContainer .selectionContainer .selectionOdd {
+  background-color: #fc0;
+  padding: 1vw;
+  border-radius: 10%;
+  font-size: 1.25em;
+  font-weight: 800;
+}

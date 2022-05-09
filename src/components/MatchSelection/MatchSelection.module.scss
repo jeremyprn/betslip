@@ -1,0 +1,30 @@
+.matchsContainer{
+    height: auto;
+    width: 100%;
+    background-color: #E8E9EB;
+
+    .matchContainer {
+        text-decoration: none;
+        color: #000;
+        margin:0 2vw;
+        height: 25vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #e8e9eb;
+
+        small {
+            font-size: .75em;
+        }
+        p {
+            font-size: 1.5em;
+            margin:1vh;
+        }
+
+        &:hover{
+            background-color: #f7f8fa;
+        }
+    }
+}
